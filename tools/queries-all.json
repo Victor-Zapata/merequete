@@ -1,0 +1,22 @@
+[
+  { "id": "hero", "query": "preschool playroom", "aspect": "wide", "size": "large" },
+  { "id": "espacio-1", "query": "kids playing wooden blocks floor", "aspect": "tall", "size": "large" },
+  { "id": "espacio-2", "query": "children reading storytime", "aspect": null, "size": "large" },
+  { "id": "espacio-3", "query": "toddler toys play", "aspect": "tall", "size": "large" },
+  { "id": "familias-bg", "query": "parent child playing together happy", "aspect": "wide", "size": "large" },
+  { "id": "g-blocks", "query": "toy blocks children", "aspect": null, "size": "large" },
+  { "id": "g-reading", "query": "child book story", "aspect": null, "size": "large" },
+  { "id": "g-art", "query": "kids painting", "aspect": null, "size": "large" },
+  { "id": "g-heuristic", "query": "wooden toys basket", "aspect": null, "size": "large" },
+  { "id": "g-cooking", "query": "child cooking baking kitchen apron", "aspect": null, "size": "large" },
+  { "id": "g-music", "query": "child playing toy musical instrument", "aspect": null, "size": "large" },
+  { "id": "g-garden", "query": "child gardening small plant pot", "aspect": null, "size": "large" },
+  { "id": "g-boardgames", "query": "children playing board game table", "aspect": null, "size": "large" },
+  { "id": "g-freeplay", "query": "preschool children playing room", "aspect": null, "size": "large" },
+  { "id": "g-teachers", "query": "teacher helping child activity preschool", "aspect": null, "size": "large" },
+  { "id": "g-crafts", "query": "kids handmade crafts paper colorful", "aspect": null, "size": "large" },
+  { "id": "g-plasticine", "query": "modeling clay", "aspect": null, "size": "large" },
+  { "id": "g-books", "query": "children books library shelf colorful", "aspect": null, "size": "large" },
+  { "id": "g-sensory", "query": "toddler sensory play colorful", "aspect": null, "size": "large" },
+  { "id": "g-crayons", "query": "crayons drawing", "aspect": null, "size": "large" }
+]

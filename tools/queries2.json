@@ -1,0 +1,12 @@
+[
+  { "id": "hero", "query": "children kindergarten play", "aspect": "wide", "size": "large" },
+  { "id": "espacio-2", "query": "children reading storytime", "aspect": null, "size": "large" },
+  { "id": "espacio-3", "query": "toddler toys play", "aspect": "tall", "size": "large" },
+  { "id": "g-blocks", "query": "toy blocks children", "aspect": null, "size": "large" },
+  { "id": "g-reading", "query": "child book story", "aspect": null, "size": "large" },
+  { "id": "g-art", "query": "child drawing art class", "aspect": null, "size": "large" },
+  { "id": "g-heuristic", "query": "wooden toys basket", "aspect": null, "size": "large" },
+  { "id": "g-plasticine", "query": "play dough children", "aspect": null, "size": "large" },
+  { "id": "g-outdoor", "query": "children playground", "aspect": null, "size": "large" },
+  { "id": "g-crayons", "query": "crayons drawing", "aspect": null, "size": "large" }
+]

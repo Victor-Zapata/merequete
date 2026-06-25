@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Créditos fotográficos · Merequeté</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500&family=Caveat:wght@600&display=swap" />
+  <link rel="stylesheet" href="styles.css?v=20260625" />
+  <style>
+    .page-credits { min-height: 100vh; padding: 6rem 0 4rem; }
+    .credits-back { font-family: var(--display); font-weight: 600; color: var(--violet); display: inline-block; margin-bottom: 2rem; }
+    .credits-list { display: grid; gap: .9rem; margin-top: 1.6rem; max-width: 760px; }
+    .credits-list li { background: var(--glass-solid); border: 1px solid var(--white-b); border-radius: var(--r-md); padding: 1rem 1.2rem; font-size: .95rem; color: var(--ink-soft); }
+    .credits-list a { color: var(--violet); font-weight: 600; }
+  </style>
+</head>
+<body class="page-credits">
+  <div class="mesh" aria-hidden="true"></div>
+  <main class="wrap">
+    <a class="credits-back" href="index.html">← Volver a Merequeté</a>
+    <h1 class="h-display">Créditos fotográficos</h1>
+    <p class="lead">Las imágenes que se ven en la web son de referencia, bajo licencias Creative Commons vía
+      <a href="https://openverse.org" target="_blank" rel="noopener">Openverse</a>.
+      Merequeté las irá reemplazando por fotos reales del espacio.</p>
+    <ul class="credits-list" data-credits>
+      <li>Cargando créditos…</li>
+    </ul>
+  </main>
+  <script defer src="lib/credits-render.js?v=20260625"></script>
+</body>
+</html>

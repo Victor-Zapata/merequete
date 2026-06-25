@@ -1,0 +1,23 @@
+[
+  { "id": "hero", "query": "bright children playroom interior toys", "aspect": "wide", "size": "large" },
+  { "id": "espacio-1", "query": "kids playing wooden blocks floor", "aspect": "tall", "size": "large" },
+  { "id": "espacio-2", "query": "children reading books cushions corner", "aspect": null, "size": "large" },
+  { "id": "espacio-3", "query": "kindergarten classroom colorful toys", "aspect": "tall", "size": "large" },
+  { "id": "familias-bg", "query": "parent child playing together happy", "aspect": "wide", "size": "large" },
+  { "id": "g-blocks", "query": "child colorful building blocks", "aspect": null, "size": "large" },
+  { "id": "g-reading", "query": "child reading picture book", "aspect": null, "size": "large" },
+  { "id": "g-art", "query": "child painting with tempera colors", "aspect": null, "size": "large" },
+  { "id": "g-heuristic", "query": "wicker basket wooden toys montessori", "aspect": null, "size": "large" },
+  { "id": "g-cooking", "query": "child cooking baking kitchen apron", "aspect": null, "size": "large" },
+  { "id": "g-music", "query": "child playing toy musical instrument", "aspect": null, "size": "large" },
+  { "id": "g-garden", "query": "child gardening small plant pot", "aspect": null, "size": "large" },
+  { "id": "g-boardgames", "query": "children playing board game table", "aspect": null, "size": "large" },
+  { "id": "g-freeplay", "query": "preschool children playing room", "aspect": null, "size": "large" },
+  { "id": "g-teachers", "query": "teacher helping child activity preschool", "aspect": null, "size": "large" },
+  { "id": "g-crafts", "query": "kids handmade crafts paper colorful", "aspect": null, "size": "large" },
+  { "id": "g-plasticine", "query": "child colorful play dough modeling", "aspect": null, "size": "large" },
+  { "id": "g-books", "query": "children books library shelf colorful", "aspect": null, "size": "large" },
+  { "id": "g-sensory", "query": "toddler sensory play colorful", "aspect": null, "size": "large" },
+  { "id": "g-outdoor", "query": "children playground outdoor play", "aspect": null, "size": "large" },
+  { "id": "g-crayons", "query": "colorful crayons drawing child", "aspect": null, "size": "large" }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": "hero", "query": "preschool playroom", "aspect": "wide", "size": "large" },
+  { "id": "g-art", "query": "kids painting", "aspect": null, "size": "large" },
+  { "id": "g-plasticine", "query": "modeling clay", "aspect": null, "size": "large" },
+  { "id": "g-outdoor", "query": "playground slide", "aspect": null, "size": "large" }
+]

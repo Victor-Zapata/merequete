@@ -96,6 +96,17 @@ Para poner las reales:
 
 > Consejo: que no sean enormes (idealmente menos de 1 MB cada una) para que la web vuele.
 
+### El logo de la web ⭐
+
+El logo (el de las letras de colores con la casita y el árbol) **ya está puesto** en `assets/logo.png` (con el fondo blanco quitado, para que se vea limpio). Aparece en tres lugares: la **barra de arriba (menú, a 48 px)**, la **pantalla de inicio (splash)** y el **hero**.
+
+Si en el futuro querés cambiarlo:
+
+1. Guardá el nuevo logo como **`logo.png`** (fondo transparente, idealmente cuadrado o un poco más alto que ancho). Si tenés el vectorial, mejor todavía como **`logo.svg`**.
+2. Reemplazá el archivo dentro de la carpeta **`assets`** (al lado de `favicon.svg`) y subilo a Hostinger.
+
+> Si en algún momento falta el archivo del logo, la web muestra **una réplica dibujada** para no quedar vacía. Apenas exista `assets/logo.png` (o `assets/logo.svg`), se usa esa imagen en los tres lugares.
+
 ---
 
 ## 6. ¿Cómo funciona la reserva por WhatsApp? (importante)

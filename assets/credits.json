@@ -1,0 +1,222 @@
+{
+  "hero": {
+    "src": "assets/img/hero.jpg",
+    "title": "Playroom",
+    "creator": "Elizabeth/Table4Five",
+    "creator_url": "https://www.flickr.com/photos/92382806@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/92382806@N00/377763536",
+    "source": "flickr"
+  },
+  "espacio-1": {
+    "src": "assets/img/espacio-1.jpg",
+    "title": "Kid playing block wooden floor",
+    "creator": "Markus Spiske",
+    "creator_url": null,
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://www.rawpixel.com/image/432773/baby-playing-the-floor",
+    "source": "rawpixel"
+  },
+  "espacio-2": {
+    "src": "assets/img/espacio-2.jpg",
+    "title": "Family Holiday",
+    "creator": "Direct Media",
+    "creator_url": "https://stocksnap.io/author/145556",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/family-holiday-AFYO3BBKYT",
+    "source": "stocksnap"
+  },
+  "espacio-3": {
+    "src": "assets/img/espacio-3.jpg",
+    "title": "Child Tricycle",
+    "creator": "Candace McDaniel",
+    "creator_url": "https://stocksnap.io/author/133875",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/child-tricycle-ULU3U1NPOR",
+    "source": "stocksnap"
+  },
+  "familias-bg": {
+    "src": "assets/img/familias-bg.jpg",
+    "title": "Family Playing",
+    "creator": "Direct Media",
+    "creator_url": "https://stocksnap.io/author/145556",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/family-playing-CKT87YHJH0",
+    "source": "stocksnap"
+  },
+  "g-blocks": {
+    "src": "assets/img/g-blocks.jpg",
+    "title": "Children Toys",
+    "creator": "Birch Landing Home",
+    "creator_url": "https://www.birchlandinghome.com",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/children-toys-R8U6CVZ24Q",
+    "source": "stocksnap"
+  },
+  "g-reading": {
+    "src": "assets/img/g-reading.jpg",
+    "title": "2021-05-30 Janusz-Korczak-Denkmal (Hannover) 01",
+    "creator": "Bärbel Miemietz",
+    "creator_url": "https://commons.wikimedia.org/wiki/User:B%C3%A4rbel_Miemietz",
+    "license": "by-sa",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=106508075",
+    "source": "wikimedia"
+  },
+  "g-art": {
+    "src": "assets/img/g-art.jpg",
+    "title": "Kids painting",
+    "creator": "Patrick Fitzgerald",
+    "creator_url": "https://www.flickr.com/people/43935390809@N01",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=20714735",
+    "source": "wikimedia"
+  },
+  "g-heuristic": {
+    "src": "assets/img/g-heuristic.jpg",
+    "title": "<div class='fn'> Toy, picnic basket</div>",
+    "creator": "Unknown",
+    "creator_url": null,
+    "license": "by",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=65948187",
+    "source": "wikimedia"
+  },
+  "g-cooking": {
+    "src": "assets/img/g-cooking.jpg",
+    "title": "20111025-FNS-RBN-1963",
+    "creator": "USDAgov",
+    "creator_url": "https://www.flickr.com/photos/41284017@N08",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/41284017@N08/6283061098",
+    "source": "flickr"
+  },
+  "g-music": {
+    "src": "assets/img/g-music.jpg",
+    "title": "Welcome to our Musical World!!! (#9 of 52)",
+    "creator": "Fountain_Head",
+    "creator_url": "https://www.flickr.com/photos/37626043@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/37626043@N00/4407758805",
+    "source": "flickr"
+  },
+  "g-garden": {
+    "src": "assets/img/g-garden.jpg",
+    "title": "'Little Red Garden Shed'",
+    "creator": "danlharp",
+    "creator_url": "https://www.flickr.com/photos/8018448@N04",
+    "license": "by-nc-nd",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/8018448@N04/4790442001",
+    "source": "flickr"
+  },
+  "g-boardgames": {
+    "src": "assets/img/g-boardgames.jpg",
+    "title": "Playing Game",
+    "creator": "Kristin Hardwick",
+    "creator_url": "https://www.kristinhardwick.com",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/playing-game-TXIMMZTQ7O",
+    "source": "stocksnap"
+  },
+  "g-freeplay": {
+    "src": "assets/img/g-freeplay.jpg",
+    "title": "Xi'an China Granny photo's from orphanage",
+    "creator": "AndrewEick",
+    "creator_url": "https://www.flickr.com/photos/19429588@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/19429588@N00/371904748",
+    "source": "flickr"
+  },
+  "g-teachers": {
+    "src": "assets/img/g-teachers.jpg",
+    "title": "literacy workshop",
+    "creator": "South Carolina State Library",
+    "creator_url": "https://www.flickr.com/photos/83771089@N00",
+    "license": "by-nc",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/83771089@N00/4941388981",
+    "source": "flickr"
+  },
+  "g-crafts": {
+    "src": "assets/img/g-crafts.jpg",
+    "title": "kid art",
+    "creator": "woodleywonderworks",
+    "creator_url": "https://www.flickr.com/photos/73645804@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/73645804@N00/6009989819",
+    "source": "flickr"
+  },
+  "g-plasticine": {
+    "src": "assets/img/g-plasticine.jpg",
+    "title": "Model clay dogs Nineveh",
+    "creator": "Zunkir",
+    "creator_url": "https://commons.wikimedia.org/wiki/User:Zunkir",
+    "license": "by-sa",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=83142354",
+    "source": "wikimedia"
+  },
+  "g-books": {
+    "src": "assets/img/g-books.jpg",
+    "title": "Dr. Seuss",
+    "creator": "ayoub.reem",
+    "creator_url": "https://www.flickr.com/photos/127030227@N02",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/127030227@N02/15220669536",
+    "source": "flickr"
+  },
+  "g-sensory": {
+    "src": "assets/img/g-sensory.jpg",
+    "title": "Pond Sensory Table",
+    "creator": "emmacraig1",
+    "creator_url": "https://www.flickr.com/photos/98925031@N08",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/98925031@N08/9678178262",
+    "source": "flickr"
+  },
+  "g-crayons": {
+    "src": "assets/img/g-crayons.jpg",
+    "title": "Crayons & Drawing",
+    "creator": "Conrad 7",
+    "creator_url": "https://commons.wikimedia.org/w/index.php?title=User:Conrad_7&action=edit&redlink=1",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=179538232",
+    "source": "wikimedia"
+  }
+}
