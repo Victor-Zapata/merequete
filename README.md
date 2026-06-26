@@ -98,14 +98,27 @@ Para poner las reales:
 
 ### El logo de la web ⭐
 
-El logo (el de las letras de colores con la casita y el árbol) **ya está puesto** en `assets/logo.png` (con el fondo blanco quitado, para que se vea limpio). Aparece en tres lugares: la **barra de arriba (menú, a 48 px)**, la **pantalla de inicio (splash)** y el **hero**.
+El logo (letras de colores con la casita y el árbol) **ya está puesto** como **`assets/logo.svg`** (vectorial, fondo transparente). Aparece en tres lugares: la **barra de arriba (menú, a 48 px)**, la **pantalla de inicio (splash)** y el **hero**. El favicon (iconito de la pestaña) también sale del logo.
 
 Si en el futuro querés cambiarlo:
 
-1. Guardá el nuevo logo como **`logo.png`** (fondo transparente, idealmente cuadrado o un poco más alto que ancho). Si tenés el vectorial, mejor todavía como **`logo.svg`**.
-2. Reemplazá el archivo dentro de la carpeta **`assets`** (al lado de `favicon.svg`) y subilo a Hostinger.
+1. Reemplazá **`assets/logo.svg`** por tu nuevo logo (mismo nombre). Si solo tenés PNG, guardalo como `assets/logo.png` (la web lo usa si no encuentra el SVG).
+2. Subí el archivo a Hostinger.
 
-> Si en algún momento falta el archivo del logo, la web muestra **una réplica dibujada** para no quedar vacía. Apenas exista `assets/logo.png` (o `assets/logo.svg`), se usa esa imagen en los tres lugares.
+> La web busca primero `assets/logo.svg`, luego `assets/logo.png`, y si no hay ninguno muestra una réplica dibujada. Nunca queda vacía.
+
+### ⏰ Horarios — IMPORTANTE: revisá que sean los tuyos
+
+La sección **Horarios** trae horarios de **ejemplo** (Lunes a viernes 10–12 y 16–21, etc.). **Cambialos por los reales antes de publicar.**
+
+1. Abrí **`index.html`** con el Bloc de notas.
+2. Buscá la palabra **`hours-list`**.
+3. Vas a ver tres líneas con los días y horarios. Cambiá el texto entre las etiquetas (por ejemplo, donde dice `10:00–12:00 · 16:00–21:00`) por tus horarios. Podés agregar o quitar líneas `<li>…</li>` si necesitás.
+4. Guardá y subí `index.html`.
+
+### El menú de arriba
+
+Las opciones del menú (Quiénes somos, Talleres, Juego libre, Familias, Horarios, Reservar) están en **`index.html`**, buscando `nav-links` (versión escritorio) y `nav-mobile` (versión celular). Si querés cambiar un nombre, edití el texto; si algo no te anda, escribime.
 
 ---
 

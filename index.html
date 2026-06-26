@@ -13,9 +13,9 @@
   <meta property="og:description" content="Juego libre y talleres creativos para infancias de 1 a 9 años. Un lugar para jugar, atendido por profesionales." />
   <meta property="og:image" content="assets/img/hero.webp" />
 
-  <link rel="icon" type="image/png" href="assets/favicon.png?v=20260629" />
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=20260629" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=20260629" />
+  <link rel="icon" type="image/png" href="assets/favicon.png?v=20260630" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=20260630" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=20260630" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +25,7 @@
   <!-- Hero priority -->
   <link rel="preload" as="image" href="assets/img/hero.webp" fetchpriority="high" />
 
-  <link rel="stylesheet" href="styles.css?v=20260629" />
+  <link rel="stylesheet" href="styles.css?v=20260630" />
 </head>
 <body>
 
@@ -33,8 +33,8 @@
   <div class="splash" data-splash aria-hidden="true">
     <div class="splash-inner">
       <div class="splash-logo brand-mark" data-splash-logo>
-        <img class="brand-logo" src="assets/logo.png" alt="Merequeté"
-             onerror="this.closest('[data-nav-logo],[data-hero-logo],[data-splash-logo]').classList.add('no-img')" />
+        <img class="brand-logo" src="assets/logo.svg" alt="Merequeté"
+             onerror="if(!this.dataset.tp){this.dataset.tp=1;this.src='assets/logo.png';}else{this.closest('[data-nav-logo],[data-hero-logo],[data-splash-logo]').classList.add('no-img');}" />
         <div class="logo-lockup splash-lockup" aria-label="Merequeté" aria-hidden="true">
           <span class="ll-row"><span class="c-sky">M</span><span class="c-sky">E</span></span>
           <span class="ll-row"><span class="c-coral">R</span><span class="c-coral">E</span><span class="ll-house"><svg viewBox="0 0 100 100"><use href="#sk-logo_casa"/></svg></span></span>
@@ -68,17 +68,19 @@
   <!-- ============ NAV ============ -->
   <header class="nav" data-nav>
     <a class="nav-logo brand-mark" href="#top" data-nav-logo data-cursor-label="arriba" aria-label="Merequeté · Inicio">
-      <img class="brand-logo nav-logo-img" src="assets/logo.png" alt="Merequeté"
-           onerror="this.closest('[data-nav-logo],[data-hero-logo],[data-splash-logo]').classList.add('no-img')" />
+      <img class="brand-logo nav-logo-img" src="assets/logo.svg" alt="Merequeté"
+           onerror="if(!this.dataset.tp){this.dataset.tp=1;this.src='assets/logo.png';}else{this.closest('[data-nav-logo],[data-hero-logo],[data-splash-logo]').classList.add('no-img');}" />
       <span class="nav-logo-fallback" aria-hidden="true">
         <span class="nav-logo-mark"><svg viewBox="0 0 32 32" width="28" height="28"><use href="#sk-casa_corazon"/></svg></span>
         Merequeté
       </span>
     </a>
     <nav class="nav-links" aria-label="Secciones">
-      <a href="#propuesta"><i>01</i> Propuesta</a>
-      <a href="#resenas"><i>02</i> Familias</a>
-      <a href="#familias"><i>03</i> Confianza</a>
+      <a href="#espacio"><i>01</i> Quiénes somos</a>
+      <a href="#propuesta"><i>02</i> Talleres</a>
+      <a href="#juego-libre"><i>03</i> Juego libre</a>
+      <a href="#resenas"><i>04</i> Familias</a>
+      <a href="#horarios"><i>05</i> Horarios</a>
     </nav>
     <a class="btn btn-primary nav-cta" href="#reservar" data-magnetic data-cursor-label="reservar">Reservar <span aria-hidden="true">→</span></a>
     <button class="nav-burger" data-burger aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -86,10 +88,12 @@
 
   <!-- Mobile menu -->
   <div class="nav-mobile" data-nav-mobile aria-hidden="true">
-    <a href="#propuesta"><i>01</i> Propuesta Lúdica</a>
-    <a href="#resenas"><i>02</i> Lo que dicen</a>
-    <a href="#familias"><i>03</i> Para las familias</a>
-    <a class="btn btn-primary" href="#reservar"><i>04</i> Reservar un turno →</a>
+    <a href="#espacio"><i>01</i> Quiénes somos</a>
+    <a href="#propuesta"><i>02</i> Talleres</a>
+    <a href="#juego-libre"><i>03</i> Juego libre</a>
+    <a href="#resenas"><i>04</i> Familias</a>
+    <a href="#horarios"><i>05</i> Horarios</a>
+    <a class="btn btn-primary" href="#reservar"><i>06</i> Reservar un turno →</a>
   </div>
 
   <main id="main">
@@ -101,8 +105,8 @@
         <div class="hero-copy">
           <p class="kicker reveal">Ludoteca infantil · Juego libre y talleres <span>/ Córdoba</span></p>
           <h1 class="hero-title brand-mark" data-hero-logo aria-label="Merequeté · Ludoteca infantil en Córdoba">
-            <img class="brand-logo" src="assets/logo.png" alt="Merequeté · Ludoteca infantil"
-                 onerror="this.closest('[data-nav-logo],[data-hero-logo],[data-splash-logo]').classList.add('no-img')" />
+            <img class="brand-logo" src="assets/logo.svg" alt="Merequeté · Ludoteca infantil"
+                 onerror="if(!this.dataset.tp){this.dataset.tp=1;this.src='assets/logo.png';}else{this.closest('[data-nav-logo],[data-hero-logo],[data-splash-logo]').classList.add('no-img');}" />
             <span class="logo-lockup" aria-hidden="true">
               <span class="ll-row"><span class="c-sky">M</span><span class="c-sky">E</span></span>
               <span class="ll-row"><span class="c-coral">R</span><span class="c-coral">E</span><span class="ll-house"><svg viewBox="0 0 100 100"><use href="#sk-logo_casa"/></svg></span></span>
@@ -150,7 +154,7 @@
         </div>
 
         <div class="espacio-text">
-          <p class="eyebrow reveal">Nuestro espacio</p>
+          <p class="eyebrow reveal">Quiénes somos</p>
           <h2 class="h-display reveal" data-split="words">Un espacio pensado para que las infancias <span class="hand">jueguen</span> de verdad.</h2>
           <p class="lead reveal">Merequeté es el primer y único espacio de su tipo en Córdoba capital: una ludoteca donde el juego libre y los talleres creativos son la forma de aprender, no un complemento.</p>
           <p class="reveal">La propuesta lúdica está liderada por <strong>Naty</strong>, Profesora de Nivel Inicial y Licenciada en Gestión Educativa, junto a un equipo de seños que acompaña cada juego sin imponerse nunca.</p>
@@ -191,7 +195,7 @@
         <div class="prop-grid" data-prop-grid>
           <!-- Cards hardcoded (robust). data-edades = grupos de edad que cubre. -->
 
-          <article class="prop-card glass" data-edades="todas 1-3 4-6 7-9" data-cursor-label="jugar">
+          <article class="prop-card glass" id="juego-libre" data-edades="todas 1-3 4-6 7-9" data-cursor-label="jugar">
             <span class="serie serie-esencial">Esencial</span>
             <span class="sticker" style="--fill:#D5865A;--accent:#9DBFB1"><svg viewBox="0 0 100 100"><use href="#sk-bloques_apilados"/></svg></span>
             <h3>Juego Libre</h3>
@@ -455,9 +459,32 @@
       </div>
     </section>
 
-    <!-- ============ 07 · RESERVAR ============ -->
-    <section class="section reservar" id="reservar">
+    <!-- ============ HORARIOS ============ -->
+    <section class="section horarios" id="horarios">
       <span class="watermark" aria-hidden="true">07</span>
+      <div class="wrap horarios-grid">
+        <div class="horarios-head">
+          <p class="eyebrow reveal">Horarios</p>
+          <h2 class="h-display reveal" data-split="words">Cuándo venir a <span class="hand">jugar</span>.</h2>
+          <p class="lead reveal">Nuestros horarios de juego libre y talleres. Para cumpleaños y eventos privados coordinamos por WhatsApp.</p>
+        </div>
+        <div class="horarios-card glass reveal">
+          <ul class="hours-list">
+            <li><span class="hd">Lunes a viernes</span><span class="hh">10:00–12:00 · 16:00–21:00</span></li>
+            <li><span class="hd">Sábados</span><span class="hh">16:00–21:00</span></li>
+            <li><span class="hd">Domingos y feriados</span><span class="hh">A consultar</span></li>
+          </ul>
+          <a class="btn btn-wa" data-wa-link href="#" target="_blank" rel="noopener" data-cursor-label="WhatsApp">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><use href="#sk-wa"/></svg>
+            Consultar disponibilidad
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 · RESERVAR ============ -->
+    <section class="section reservar" id="reservar">
+      <span class="watermark" aria-hidden="true">08</span>
       <div class="wrap reservar-grid">
         <div class="reservar-form-wrap">
           <header class="section-head">
@@ -668,7 +695,7 @@
   <!-- ============ SCRIPTS ============ -->
   <script defer src="lib/gsap.min.js"></script>
   <script defer src="lib/ScrollTrigger.min.js"></script>
-  <script defer src="lib/manifest.js?v=20260629"></script>
-  <script defer src="main.js?v=20260629"></script>
+  <script defer src="lib/manifest.js?v=20260630"></script>
+  <script defer src="main.js?v=20260630"></script>
 </body>
 </html>
