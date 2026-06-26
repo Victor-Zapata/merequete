@@ -54,28 +54,40 @@
   function initSplash() {
     var splash = $("[data-splash]");
     if (!splash) return;
-    var hide = function () { splash.classList.add("is-out"); };
+    var hide = function () {
+      if (splash.classList.contains("is-out")) return;
+      splash.classList.add("is-out");
+      if (typeof window.__heroIntroPlay === "function") window.__heroIntroPlay();
+    };
     // El texto de entrada se queda un rato en pantalla antes de irse.
     if (document.readyState === "complete") setTimeout(hide, 3000);
     else window.addEventListener("load", function () { setTimeout(hide, 2800); });
     setTimeout(hide, 5200); // red de seguridad JS (la CSS dispara a 5.8s)
   }
 
-  /* ---------- Título del hero (letras del logo) ---------- */
-  function initHeroTitle() {
-    var h = $("[data-hero-logo]");
-    if (!h) return;
-    if (!(window.gsap && !reduced)) return;
-    var img = $(".brand-logo", h);
-    var letters = $$(".logo-lockup .ll-row > *", h);
-    if (img) {
-      gsap.set(img, { opacity: 0, scale: .72, y: 18 });
-      gsap.to(img, { opacity: 1, scale: 1, y: 0, duration: .85, ease: "back.out(1.6)", delay: .15 });
+  /* ---------- Entrada del hero (se luce al irse el splash) ----------
+     Usa la misma mecánica que el resto: clase .reveal + transición CSS,
+     pero el disparo se retrasa hasta que el splash se va, y es escalonado. */
+  function initHeroIntro() {
+    var hero = $("#hero");
+    if (!hero) return;
+    var items = $$(".hero-copy > *", hero).concat($$(".hero-figure", hero));
+    if (!items.length) return;
+    items.forEach(function (el) {
+      el.classList.add("reveal");        // ocultos + con transición CSS
+      el.classList.remove("is-visible");
+      el.setAttribute("data-hero-managed", "1"); // que el IO genérico los ignore
+    });
+    var played = false;
+    function play() {
+      if (played) return; played = true;
+      items.forEach(function (el, i) {
+        setTimeout(function () { el.classList.add("is-visible"); }, i * (reduced ? 60 : 120));
+      });
     }
-    if (letters.length) {
-      gsap.set(letters, { yPercent: 60, opacity: 0, scale: .6 });
-      gsap.to(letters, { yPercent: 0, opacity: 1, scale: 1, duration: .7, ease: "back.out(1.7)", stagger: .05, delay: .15 });
-    }
+    window.__heroIntroPlay = play;
+    if (!$("[data-splash]")) play();        // si no hay splash, entra de una
+    setTimeout(play, 5000);                 // respaldo por si el splash nunca avisa
   }
 
   /* ---------- Nav (auto-hide + burger + mobile) ---------- */
@@ -165,7 +177,7 @@
     });
 
     // generic reveals
-    var els = $$(".reveal:not([data-split])");
+    var els = $$(".reveal:not([data-split]):not([data-hero-managed])");
     if ("IntersectionObserver" in window) {
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (en) {
@@ -398,7 +410,7 @@
     safe(initContacts, "initContacts");
     safe(initPropSelect, "initPropSelect");
     safe(initSplash, "initSplash");
-    safe(initHeroTitle, "initHeroTitle");
+    safe(initHeroIntro, "initHeroIntro");
     safe(initNav, "initNav");
     safe(initAnchors, "initAnchors");
     safe(initReveals, "initReveals");
